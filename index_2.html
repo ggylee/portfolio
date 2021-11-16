@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Gillian Lee Portfolio</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -23,157 +22,428 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Sacramento&family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <title>Gillian Lee Portfolio</title>
+    <link
+      rel="icon"
+      href="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/favicon_gl.png"
+    />
   </head>
 
   <body class="body-font">
-    <nav class="navbar justify-content-center fixed-top font-size-up bg-nav">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link color-ws" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link color-ws" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link color-ws" href="#contact">Say Hello!</a>
-        </li>
-      </ul>
+    <nav
+      class="
+        navbar navbar-expand-md
+        fixed-top
+        font-size-up
+        bg-nav
+        px-lg-5 px-md-3
+      "
+    >
+      <div class="brand navbar-brand navbar-hover">
+        <a
+          class="
+            brand-font
+            text-decoration-none text-white
+            font-weight-bold
+            position-relative
+          "
+          href="#home"
+          >G</a
+        >
+        <a
+          class="
+            brand-font
+            text-decoration-none text-white
+            font-weight-bold
+            brand-firstname
+          "
+          >illian</a
+        >
+        <a
+          class="
+            brand-font
+            text-decoration-none text-white
+            font-weight-bold
+            brand-surname
+          "
+          >Lee</a
+        >
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="navbar-nav">
+          <a
+            class="
+              nav-item nav-link
+              text-white
+              font-weight-bold
+              px-3
+              navbar-hover
+            "
+            href="#about"
+            >About</a
+          >
+          <a
+            class="
+              nav-item nav-link
+              text-white
+              font-weight-bold
+              px-3
+              navbar-hover
+            "
+            href="#projects"
+            >Projects</a
+          >
+          <a
+            class="
+              nav-item nav-link
+              text-white
+              font-weight-bold
+              px-3
+              navbar-hover
+            "
+            href="#contact"
+            >Say Hello!</a
+          >
+        </div>
+      </div>
     </nav>
 
-    <div
-      class="container-fluid bg-1 d-flex flex-column align-items-center justify-content-center text-center"
-    >
-      <img
-        src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/intro_pic.png+(578x578).png"
-        alt="title page pic"
-        class="rounded-circle position-relative img-fluid"
-      />
-      <div class="position-absolute px-5">
-        <h1 class="name-font">Gillian Lee</h1>
-        <h3 class="color-ws">aspiring developer / career changer</h3>
-      </div>
-    </div>
+    <div id="home" class="py-5 py-lg-4 py-md-3 py-sm-5"></div>
 
-    <div
-      class="container-fluid text-center py-5 px-sm-5 font-size-up bg-ws"
-      id="about"
-    >
-      <div class="row align-items-center">
-        <div class="col-md-7 p-4">
-          <p>
-            Hey, I’m Gillian, an aspiring developer in pursuit of a living I'll
-            love!
-          </p>
-          <p>
-            Since starting to code in Feb 2021, I’ve taught myself the
-            fundamentals of HTML, CSS, and responsive web design, and am
-            currently getting to grips with JavaScript.
-          </p>
-          <p>Thanks for taking an interest in my coding journey :)</p>
+    <section class="container-fluid">
+      <div
+        class="
+          bg-1
+          row
+          align-items-center
+          justify-content-around
+          text-center
+          m-0
+          p-0
+        "
+      >
+        <div class="intro text-right col-lg-5 col-md-6 col-sm-12">
+          <h1 class="display-2 mb-lg-5 mb-md-4 mb-sm-3 font-weight-bold">
+            Hi, I'm Gill.
+          </h1>
+          <h2 class="fade-in">Aspiring Web Developer.</h2>
+          <h2 class="fade-in-2">Career Changer.</h2>
+          <div class="py-2 fade-in-3">
+            <a href="mailto:ggylee@gmail.com" target="_blank"
+              ><i class="fas fa-at fa-2x pr-1 icon"></i
+            ></a>
+            <a href="https://github.com/ggylee" target="_blank"
+              ><i class="fab fa-github fa-2x p-1 icon"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ggylee" target="_blank"
+              ><i class="fab fa-linkedin fa-2x p-1 icon"></i
+            ></a>
+            <a href="https://www.freecodecamp.org/ggylee" target="_blank"
+              ><i class="fab fa-free-code-camp fa-2x p-1 icon"></i
+            ></a>
+            <button class="btn btn-sm ml-1 mb-3 icon-cv">
+              <a
+                href=""
+                class="font-weight-bold text-decoration-none text-white"
+                >CV</a
+              >
+            </button>
+          </div>
         </div>
-        <div class="col-md-5 p-4">
+        <div class="col-lg-7 col-md-6 col-sm-12">
           <img
-            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/profile_pic.png+(316x316).png"
-            alt="profile pic"
-            class="rounded-circle img-fluid"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/intro_pic.png+(578x578).png"
+            alt="title page pic"
+            class="rounded-circle img-fluid photo-border p-2"
           />
         </div>
       </div>
-    </div>
+    </section>
 
-    <div
-      class="container-fluid bg-black text-center px-4 px-md-5 py-5"
-      id="projects"
+    <div id="about" class="py-5"></div>
+
+    <section
+      class="
+        container-fluid
+        text-center
+        font-size-up
+        d-flex
+        flex-column
+        align-items-center
+      "
     >
-      <div class="row">
-        <div class="col-md-4 col-sm-6 p-lg-4 p-2">
-          <a href="https://codepen.io/ggylee/full/ExNyzQx" target="_blank"
-            ><img
-              class="img-fluid rounded"
-              src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/tribute.png+(580x520).png"
-              alt="project"
-          /></a>
+      <div class="col-lg-9 col-md-11">
+        <h2 class="mb-4">A bit about me.</h2>
+        <p>
+          Hi, I’m Gill, an aspiring Web Developer with a background in
+          recruitment, most recently as part of in-house teams at tech companies
+          for five years.
+        </p>
+        <p>
+          After being made redundant and making the bold decision to pursue a
+          career change, I started my coding journey in Feb 2021 and am now
+          hooked! Since then, I’ve taught myself the fundamentals of HTML, CSS,
+          responsive web design, JavaScript, Bootstrap, jQuery, SASS, React, and
+          Redux and have developed a genuine enthusiasm for solving problems,
+          building things, and engaging my creative side.
+        </p>
+        <p>
+          As an effective communicator and team player adept at juggling
+          priorities, I’m now looking for opportunities that will help me hone
+          my technical skills. Ultimately, I would love to build products and
+          solutions that have a positive impact on peoples’ lives.
+        </p>
+        <p>
+          Check out some of my latest projects below and find out more in my
+          <button class="btn bg-black icon-cv">
+            <a href="" class="font-weight-bold text-decoration-none text-white"
+              >CV</a
+            >
+          </button>
+          .
+        </p>
+      </div>
+    </section>
+
+    <div id="projects" class="py-5"></div>
+
+    <section class="container-fluid text-center">
+      <h2 class="mb-4">Projects.</h2>
+      <p class="col-lg-9 col-md-11 font-size-up m-auto">
+        Built while completing the freeCodeCamp Front End Development Libraries
+        Certification, JavaScript Algorithms and Data Structures Certification,
+        and Responsive Web Design Certification.
+      </p>
+      <div class="row justify-content-center mt-4">
+        <div class="tile-container tile-border">
+          <img
+            class="img-fluid rounded"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/pomodoro_timer.png+(580x550).png"
+            alt="project"
+          />
+          <a href="https://codepen.io/ggylee/full/GRvqqvG" target="_blank">
+            <div
+              class="
+                tile-overlay
+                d-flex
+                flex-column
+                align-items-center
+                justify-content-center
+              "
+            >
+              <h3 class="text-white font-weight-bold">POMODORO TIMER</h3>
+              <p class="font-size-up text-black">
+                React | JavaScript | Bootstrap | HTML | CSS
+              </p>
+              <p class="text-white p-2">
+                Built and designed a Pomodoro timer (25 + 5 clock) with
+                start/stop/reset functionality, that displays the countdown
+                timer, sounds an alarm at the end of each period, and enables
+                sessions and breaks of up to 60 minutes.
+              </p>
+            </div>
+          </a>
         </div>
-        <div class="col-md-4 col-sm-6 p-lg-4 p-2">
-          <a href="https://codepen.io/ggylee/full/qBqqjPq" target="_blank"
-            ><img
-              class="img-fluid rounded"
-              src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/survey.png+(580x520).png"
-              alt="project"
-          /></a>
+        <div class="tile-container tile-border">
+          <img
+            class="img-fluid rounded"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/calculator.png+(580x550).png"
+            alt="project"
+          />
+          <a href="https://codepen.io/ggylee/full/qBjrwpv" target="_blank">
+            <div
+              class="
+                tile-overlay
+                d-flex
+                flex-column
+                align-items-center
+                justify-content-center
+              "
+            >
+              <h3 class="text-white font-weight-bold">CALCULATOR</h3>
+              <p class="font-size-up text-black">
+                React | JavaScript | HTML | CSS
+              </p>
+              <p class="text-white p-2">
+                Built and designed a fully functional basic calculator that
+                enables manipulation of (decimal) numbers using
+                formula/expression logic, observing consistent input formatting
+                and order of operation precedence.
+              </p>
+            </div>
+          </a>
         </div>
-        <div class="col-md-4 col-sm-6 p-lg-4 p-2">
-          <a href="https://codepen.io/ggylee/full/BaQWRza" target="_blank"
-            ><img
-              class="img-fluid rounded"
-              src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/product.png+(580x520).png"
-              alt="project"
-          /></a>
+        <div class="tile-container tile-border">
+          <img
+            class="img-fluid rounded"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/drum_machine.png+(580x550).png"
+            alt="project"
+          />
+          <a href="https://codepen.io/ggylee/full/wveoKmz" target="_blank">
+            <div
+              class="
+                tile-overlay
+                d-flex
+                flex-column
+                align-items-center
+                justify-content-center
+              "
+            >
+              <h3 class="text-white font-weight-bold">DRUM MACHINE</h3>
+              <p class="font-size-up text-black">
+                React | JavaScript | Bootstrap | HTML | CSS
+              </p>
+              <p class="text-white p-2">
+                Built and designed a drum machine that plays a variety of sounds
+                and displays the associated audio description, with drum pads
+                that can be triggered by mouse click or corresponding keyboard
+                keys.
+              </p>
+            </div>
+          </a>
         </div>
-        <div class="col-md-4 col-sm-6 p-lg-4 p-2">
-          <a href="https://codepen.io/ggylee/full/PobjJav" target="_blank"
-            ><img
-              class="img-fluid rounded"
-              src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/technical_doc.png+(580x520).png"
-              alt="project"
-          /></a>
+        <div class="tile-container tile-border">
+          <img
+            class="img-fluid rounded"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/markdown_previewer.png+(580x550).png"
+            alt="project"
+          />
+          <a href="https://codepen.io/ggylee/full/OJgNmyL" target="_blank">
+            <div
+              class="
+                tile-overlay
+                d-flex
+                flex-column
+                align-items-center
+                justify-content-center
+              "
+            >
+              <h3 class="text-white font-weight-bold">MARKDOWN PREVIEWER</h3>
+              <p class="font-size-up text-black">
+                React | JavaScript | Bootstrap | HTML | CSS
+              </p>
+              <p class="text-white p-2">
+                Built and designed a markdown previewer using the Marked
+                library, enabling GitHub flavoured markdown entered in the
+                Editor to be rendered as HTML in the Previewer.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="tile-container tile-border">
+          <img
+            class="img-fluid rounded"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/random_quote_machine.png+(580x550).png"
+            alt="project"
+          />
+          <a href="https://codepen.io/ggylee/full/WNjBKeE" target="_blank">
+            <div
+              class="
+                tile-overlay
+                d-flex
+                flex-column
+                align-items-center
+                justify-content-center
+              "
+            >
+              <h3 class="text-white font-weight-bold">RANDOM QUOTE MACHINE</h3>
+              <p class="font-size-up text-black">
+                React | JavaScript | Bootstrap | HTML | CSS
+              </p>
+              <p class="text-white p-2">
+                Built and designed a random quote machine that generates and
+                displays a new quote from a character in The Office (US) with
+                each click, with the functionality to tweet any favourites.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="tile-container tile-border">
+          <img
+            class="img-fluid rounded"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/first_portfolio.png+(580x550).png"
+            alt="project"
+          />
+          <a href="https://codepen.io/ggylee/full/xxRXPMJ" target="_blank">
+            <div
+              class="
+                tile-overlay
+                d-flex
+                flex-column
+                align-items-center
+                justify-content-center
+              "
+            >
+              <h3 class="text-white font-weight-bold">PORTFOLIO NO.1</h3>
+              <p class="font-size-up text-black">HTML | CSS</p>
+              <p class="text-white p-2">
+                My first attempt at building and designing a portfolio after
+                completing the freeCodeCamp Responsive Web Design Certification,
+                showcasing other projects (product landing page, technical
+                documentation page, survey form, and tribute page) I created as
+                part of the course.
+              </p>
+            </div>
+          </a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div
-      class="container-fluid text-center bg-ws py-5 font-size-up"
-      id="contact"
-    >
-      <h1 class="font-weight-bold mt-3">Let's collaborate!</h1>
-      <p class="pb-2">What shall we create together?</p>
+    <div id="contact" class="py-5"></div>
+
+    <section class="container-fluid text-center font-size-up">
+      <h2 class="font-weight-bold mb-3">Let's collaborate!</h2>
+      <p class="mb-4">What shall we create together?</p>
       <div>
-        <ul class="row list-unstyled hover-teal">
-          <li class="col-md-3 col-sm-6 p-sm-3 p-2">
-            <i class="fas fa-at"></i
-            ><a
-              class="text-decoration-none text-black"
-              href="mailto:ggylee@gmail.com"
-            >
-              Email</a
-            >
+        <ul class="row list-unstyled align-items-center justify-content-center">
+          <li class="col-md-2 col-sm-6 p-2">
+            <a href="mailto:ggylee@gmail.com" target="_blank"
+              ><i class="fas fa-at fa-2x p-1 icon"></i
+            ></a>
           </li>
-          <li class="col-md-3 col-sm-6 p-sm-3 p-2">
-            <i class="fab fa-free-code-camp"></i
-            ><a
-              class="text-decoration-none text-black"
-              href="https://www.freecodecamp.org/ggylee"
-              target="_blank"
-            >
-              freeCodeCamp</a
-            >
+          <li class="col-md-2 col-sm-6 p-2">
+            <a href="https://github.com/ggylee" target="_blank"
+              ><i class="fab fa-github fa-2x p-1 icon"></i
+            ></a>
           </li>
-          <li class="col-md-3 col-sm-6 p-sm-3 p-2">
-            <i class="fab fa-github"></i
-            ><a
-              class="text-decoration-none text-black"
-              href="https://github.com/ggylee"
-              target="_blank"
-            >
-              GitHub</a
-            >
+          <li class="col-md-2 col-sm-6 p-2">
+            <a href="https://www.linkedin.com/in/ggylee" target="_blank"
+              ><i class="fab fa-linkedin fa-2x p-1 icon"></i
+            ></a>
           </li>
-          <li class="col-md-3 col-sm-6 p-sm-3 p-2">
-            <i class="fab fa-linkedin"></i
-            ><a
-              class="text-decoration-none text-black"
-              href="https://www.linkedin.com/in/ggylee/"
-              target="_blank"
-            >
-              LinkedIn</a
-            >
+          <li class="col-md-2 col-sm-6 p-2">
+            <a href="https://www.freecodecamp.org/ggylee" target="_blank"
+              ><i class="fab fa-free-code-camp fa-2x p-1 icon"></i
+            ></a>
+          </li>
+          <li class="col-md-2 col-sm-6 p-2">
+            <button class="btn bg-black icon-cv">
+              <a
+                href=""
+                class="font-weight-bold text-decoration-none text-white"
+                >CV</a
+              >
+            </button>
           </li>
         </ul>
       </div>
-    </div>
+    </section>
+
+    <div class="py-5"></div>
 
     <footer class="container-fluid bg-black text-center pt-3 pb-1">
-      <p>&copy 2021 Ggylee</p>
+      <p>&copy 2021 ggylee</p>
     </footer>
 
     <script
