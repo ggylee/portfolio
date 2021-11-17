@@ -1,0 +1,53 @@
+:root {
+  background-color: indigo;
+}
+
+.bg-1 {
+  background-color: indigo;
+  height: 100vh;
+}
+
+.card-bg {
+  background-color: gold !important;
+}
+
+.card-shadow {
+  box-shadow: 0 0 3rem black;
+}
+
+.card {
+  height: 90vh;
+}
+
+#editor {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+}
+
+/* #preview */
+
+h1 {
+  border-bottom: 0.2rem solid;
+}
+
+h2 {
+  border-bottom: 0.1rem solid;
+}
+
+code,
+pre {
+  background-color: gainsboro;
+  padding: 0.3rem;
+}
+
+blockquote {
+  border-left: 0.3rem solid indigo;
+  color: indigo;
+  padding-left: 0.3rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
