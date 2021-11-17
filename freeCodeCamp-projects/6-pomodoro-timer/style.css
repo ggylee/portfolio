@@ -1,0 +1,112 @@
+:root {
+  background-color: gold;
+}
+
+#container {
+  background-color: gold;
+  height: 100vh;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+#tomato-whole {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tomato-leaves {
+  position: relative;
+}
+
+.stalk {
+  height: 2.5rem;
+  width: 4%;
+  margin: auto;
+  background-color: darkgreen;
+  border-radius: 3px;
+}
+
+.leaves-1 {
+  position: absolute;
+  height: 2rem;
+  width: 85%;
+  left: 2rem;
+  margin: auto;
+  color: whitesmoke;
+  text-shadow: 0.5px 0.5px 1px black;
+  text-align: end;
+  font-size: 0.8rem;
+  padding-top: 0.8rem;
+  padding-right: 0.3rem;
+  background-color: darkgreen;
+  border-radius: 3px 300px 3px 300px;
+  transform: rotate(10deg);
+  box-shadow: 4px 5px 8px black;
+}
+
+.leaves-2 {
+  position: absolute;
+  height: 2rem;
+  width: 85%;
+  left: 1rem;
+  margin: auto;
+  background-color: green;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  padding-top: 0.25rem;
+  border-radius: 300px 3px 300px 3px;
+  transform: rotate(-10deg);
+  box-shadow: -1px 5px 8px black;
+}
+
+#tomato-body {
+  background-color: tomato;
+  width: 25rem;
+  height: 23rem;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 10px 8px;
+}
+
+.row {
+  width: 100%;
+  padding-top: 3.5rem;
+}
+
+.length-row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: tomato;
+  border: none;
+}
+
+.sessionLength,
+.breakLength {
+  font-size: 1.3rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+#timer {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+#time-left {
+  font-size: 4.5rem;
+}
+
+#start_stop {
+  margin-right: 1rem;
+}

@@ -1,0 +1,43 @@
+:root {
+  background-color: #4ea2a2;
+}
+
+#drum-machine {
+  height: 100vh;
+  font-family: arial;
+  background-color: #4ea2a2;
+}
+
+#display {
+  font-family: "Righteous", cursive;
+}
+
+.drum-pad {
+  height: 5rem;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(0.97);
+}
+
+.bg-brown {
+  background-color: #5a2f03;
+  box-shadow: rgba(0, 0, 0, 0.7) 0.5rem 0.5rem 0.2rem;
+}
+
+.bg-orange {
+  background-color: darkorange;
+}
+
+.sound-name {
+  height: 2.4rem;
+  font-size: 1.2rem;
+  width: 13rem;
+}
+
+.footer {
+  font-size: 0.85rem;
+  color: gainsboro;
+}
