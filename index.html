@@ -19,13 +19,13 @@
     ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Sacramento&family=Raleway&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Dr+Sugiyama&display=swap"
       rel="stylesheet"
     />
     <title>Gillian Lee | Portfolio</title>
     <link
       rel="icon"
-      href="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/favicon_gl.png"
+      href="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/favicon_gl2.png"
     />
   </head>
 
@@ -39,36 +39,15 @@
         px-lg-5 px-md-3
       "
     >
-      <div class="brand navbar-brand navbar-hover">
-        <a
-          class="
-            brand-font
-            text-decoration-none text-white
-            font-weight-bold
-            position-relative
-          "
-          href="#home"
-          >G</a
+      <a href="#home">
+        <div
+          class="brand navbar-brand brand-font navbar-hover text-decoration-none text-white"
         >
-        <a
-          class="
-            brand-font
-            text-decoration-none text-white
-            font-weight-bold
-            brand-firstname
-          "
-          >illian</a
-        >
-        <a
-          class="
-            brand-font
-            text-decoration-none text-white
-            font-weight-bold
-            brand-surname
-          "
-          >Lee</a
-        >
-      </div>
+          <div>G</div>
+          <div class="brand-firstname">illian</div>
+          <div class="brand-surname">Lee</div>
+        </div>
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -83,35 +62,17 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <div class="navbar-nav">
           <a
-            class="
-              nav-item nav-link
-              text-white
-              font-weight-bold
-              px-3
-              navbar-hover
-            "
+            class="nav-item nav-link text-white px-3 navbar-hover"
             href="#about"
             >About</a
           >
           <a
-            class="
-              nav-item nav-link
-              text-white
-              font-weight-bold
-              px-3
-              navbar-hover
-            "
+            class="nav-item nav-link text-white px-3 navbar-hover"
             href="#projects"
             >Projects</a
           >
           <a
-            class="
-              nav-item nav-link
-              text-white
-              font-weight-bold
-              px-3
-              navbar-hover
-            "
+            class="nav-item nav-link text-white px-3 navbar-hover"
             href="#contact"
             >Say Hello!</a
           >
@@ -134,7 +95,12 @@
         "
       >
         <div class="intro text-right col-lg-5 col-md-6 col-sm-12">
-          <h1 class="display-2 mb-lg-5 mb-md-4 mb-sm-3 font-weight-bold">
+          <h1
+            class="
+              mb-lg-5 mb-md-4 mb-sm-3 mt-md-5
+              intro-font
+            "
+          >
             Hi, I'm Gill.
           </h1>
           <h2 class="fade-in">Aspiring Web Developer.</h2>
@@ -161,7 +127,7 @@
             </button>
           </div>
         </div>
-        <div class="col-lg-7 col-md-6 col-sm-12">
+        <div class="col-lg-7 col-md-6 col-sm-12 mt-lg-0 mt-md-5">
           <img
             src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/intro_pic.png+(578x578).png"
             alt="title page pic"
@@ -229,173 +195,262 @@
         <div class="tile-container tile-border">
           <img
             class="img-fluid rounded"
-            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/pomodoro_timer.png+(580x550).png"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/pomodoro_timer+(580x550).png"
             alt="project"
           />
-          <a href="https://codepen.io/ggylee/full/GRvqqvG" target="_blank">
-            <div
-              class="
-                tile-overlay
-                d-flex
-                flex-column
-                align-items-center
-                justify-content-center
-              "
-            >
-              <h3 class="text-white font-weight-bold">POMODORO TIMER</h3>
-              <p class="font-size-up text-black">
-                React | JavaScript | Bootstrap | HTML | CSS
-              </p>
-              <p class="text-white p-2">
-                Built and designed a Pomodoro timer (25 + 5 clock) with
-                start/stop/reset functionality, that displays the countdown
-                timer, sounds an alarm at the end of each period, and enables
-                sessions and breaks of up to 60 minutes.
-              </p>
+          <div
+            class="
+              tile-overlay
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-center
+            "
+          >
+            <h3 class="text-white">POMODORO TIMER</h3>
+            <p class="font-size-up text-black">
+              React | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="text-white p-2">
+              Built and designed a Pomodoro timer (25 + 5 clock) with
+              start/stop/reset functionality, that displays the countdown timer,
+              sounds an alarm at the end of each period, and enables sessions
+              and breaks of up to 60 minutes.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/ggylee/full/GRvqqvG"
+                class="text-decoration-none"
+                target="_blank"
+                ><button class="p-2 btn btn-project-code">
+                  <i class="fab fa-codepen"></i> VIEW
+                </button>
+              </a>
+              <a
+                href="https://github.com/ggylee/portfolio/tree/main/freeCodeCamp-projects/6-pomodoro-timer"
+                target="_blank"
+                ><button class="p-2 ml-3 btn btn-project-code">
+                  <i class="fab fa-github"></i> SOURCE CODE
+                </button>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
         <div class="tile-container tile-border">
           <img
             class="img-fluid rounded"
-            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/calculator.png+(580x550).png"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/calculator+(580x550).png"
             alt="project"
           />
-          <a href="https://codepen.io/ggylee/full/qBjrwpv" target="_blank">
-            <div
-              class="
-                tile-overlay
-                d-flex
-                flex-column
-                align-items-center
-                justify-content-center
-              "
-            >
-              <h3 class="text-white font-weight-bold">CALCULATOR</h3>
-              <p class="font-size-up text-black">
-                React | JavaScript | HTML | CSS
-              </p>
-              <p class="text-white p-2">
-                Built and designed a fully functional basic calculator that
-                enables manipulation of (decimal) numbers using
-                formula/expression logic, observing consistent input formatting
-                and order of operation precedence.
-              </p>
+          <div
+            class="
+              tile-overlay
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-center
+            "
+          >
+            <h3 class="text-white">CALCULATOR</h3>
+            <p class="font-size-up text-black">
+              React | JavaScript | HTML | CSS
+            </p>
+            <p class="text-white p-2">
+              Built and designed a fully functional basic calculator that
+              enables manipulation of (decimal) numbers using formula/expression
+              logic, observing consistent input formatting and order of
+              operation precedence.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/ggylee/full/qBjrwpv"
+                class="text-decoration-none"
+                target="_blank"
+                ><button class="p-2 btn btn-project-code">
+                  <i class="fab fa-codepen"></i> VIEW
+                </button>
+              </a>
+              <a
+                href="https://github.com/ggylee/portfolio/tree/main/freeCodeCamp-projects/5-calculator"
+                target="_blank"
+                ><button class="p-2 ml-3 btn btn-project-code">
+                  <i class="fab fa-github"></i> SOURCE CODE
+                </button>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
         <div class="tile-container tile-border">
           <img
             class="img-fluid rounded"
-            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/drum_machine.png+(580x550).png"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/drum_machine+(580x550).png"
             alt="project"
           />
-          <a href="https://codepen.io/ggylee/full/wveoKmz" target="_blank">
-            <div
-              class="
-                tile-overlay
-                d-flex
-                flex-column
-                align-items-center
-                justify-content-center
-              "
-            >
-              <h3 class="text-white font-weight-bold">DRUM MACHINE</h3>
-              <p class="font-size-up text-black">
-                React | JavaScript | Bootstrap | HTML | CSS
-              </p>
-              <p class="text-white p-2">
-                Built and designed a drum machine that plays a variety of sounds
-                and displays the associated audio description, with drum pads
-                that can be triggered by mouse click or corresponding keyboard
-                keys.
-              </p>
+          <div
+            class="
+              tile-overlay
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-center
+            "
+          >
+            <h3 class="text-white">DRUM MACHINE</h3>
+            <p class="font-size-up text-black">
+              React | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="text-white p-2">
+              Built and designed a drum machine that plays a variety of sounds
+              and displays the associated audio description, with drum pads that
+              can be triggered by mouse click or corresponding keyboard keys.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/ggylee/full/wveoKmz"
+                class="text-decoration-none"
+                target="_blank"
+                ><button class="p-2 btn btn-project-code">
+                  <i class="fab fa-codepen"></i> VIEW
+                </button>
+              </a>
+              <a
+                href="https://github.com/ggylee/portfolio/tree/main/freeCodeCamp-projects/4-drum-machine"
+                target="_blank"
+                ><button class="p-2 ml-3 btn btn-project-code">
+                  <i class="fab fa-github"></i> SOURCE CODE
+                </button>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
         <div class="tile-container tile-border">
           <img
             class="img-fluid rounded"
-            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/markdown_previewer.png+(580x550).png"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/markdown_previewer+(580x550).png"
             alt="project"
           />
-          <a href="https://codepen.io/ggylee/full/OJgNmyL" target="_blank">
-            <div
-              class="
-                tile-overlay
-                d-flex
-                flex-column
-                align-items-center
-                justify-content-center
-              "
-            >
-              <h3 class="text-white font-weight-bold">MARKDOWN PREVIEWER</h3>
-              <p class="font-size-up text-black">
-                React | JavaScript | Bootstrap | HTML | CSS
-              </p>
-              <p class="text-white p-2">
-                Built and designed a markdown previewer using the Marked
-                library, enabling GitHub flavoured markdown entered in the
-                Editor to be rendered as HTML in the Previewer.
-              </p>
+          <div
+            class="
+              tile-overlay
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-center
+            "
+          >
+            <h3 class="text-white">MARKDOWN PREVIEWER</h3>
+            <p class="font-size-up text-black">
+              React | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="text-white p-2">
+              Built and designed a markdown previewer using the Marked library,
+              enabling GitHub flavoured markdown entered in the Editor to be
+              rendered as HTML in the Previewer.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/ggylee/full/OJgNmyL"
+                class="text-decoration-none"
+                target="_blank"
+                ><button class="p-2 btn btn-project-code">
+                  <i class="fab fa-codepen"></i> VIEW
+                </button>
+              </a>
+              <a
+                href="https://github.com/ggylee/portfolio/tree/main/freeCodeCamp-projects/3-markdown-previewer"
+                target="_blank"
+                ><button class="p-2 ml-3 btn btn-project-code">
+                  <i class="fab fa-github"></i> SOURCE CODE
+                </button>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
         <div class="tile-container tile-border">
           <img
             class="img-fluid rounded"
-            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/random_quote_machine.png+(580x550).png"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/random_quote_machine+(580x550).png"
             alt="project"
           />
-          <a href="https://codepen.io/ggylee/full/WNjBKeE" target="_blank">
-            <div
-              class="
-                tile-overlay
-                d-flex
-                flex-column
-                align-items-center
-                justify-content-center
-              "
-            >
-              <h3 class="text-white font-weight-bold">RANDOM QUOTE MACHINE</h3>
-              <p class="font-size-up text-black">
-                React | JavaScript | Bootstrap | HTML | CSS
-              </p>
-              <p class="text-white p-2">
-                Built and designed a random quote machine that generates and
-                displays a new quote from a character in The Office (US) with
-                each click, with the functionality to tweet any favourites.
-              </p>
+          <div
+            class="
+              tile-overlay
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-center
+            "
+          >
+            <h3 class="text-white">RANDOM QUOTE MACHINE</h3>
+            <p class="font-size-up text-black">
+              React | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="text-white p-2">
+              Built and designed a random quote machine that generates and
+              displays a new quote from a character in The Office (US) with each
+              click, with the functionality to tweet any favourites.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/ggylee/full/WNjBKeE"
+                class="text-decoration-none"
+                target="_blank"
+                ><button class="p-2 btn btn-project-code">
+                  <i class="fab fa-codepen"></i> VIEW
+                </button>
+              </a>
+              <a
+                href="https://github.com/ggylee/portfolio/tree/main/freeCodeCamp-projects/2-random-quote-machine"
+                target="_blank"
+                ><button class="p-2 ml-3 btn btn-project-code">
+                  <i class="fab fa-github"></i> SOURCE CODE
+                </button>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
         <div class="tile-container tile-border">
           <img
             class="img-fluid rounded"
-            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/first_portfolio.png+(580x550).png"
+            src="https://ggylee-portfolio.s3.eu-west-2.amazonaws.com/portfolio_v1+(580x550).png"
             alt="project"
           />
-          <a href="https://codepen.io/ggylee/full/xxRXPMJ" target="_blank">
-            <div
-              class="
-                tile-overlay
-                d-flex
-                flex-column
-                align-items-center
-                justify-content-center
-              "
-            >
-              <h3 class="text-white font-weight-bold">PORTFOLIO V1</h3>
-              <p class="font-size-up text-black">HTML | CSS</p>
-              <p class="text-white p-2">
-                My first attempt at building and designing a portfolio after
-                completing the freeCodeCamp Responsive Web Design Certification,
-                showcasing other projects (product landing page, technical
-                documentation page, survey form, and tribute page) I created as
-                part of the course.
-              </p>
+          <div
+            class="
+              tile-overlay
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-center
+            "
+          >
+            <h3 class="text-white">PORTFOLIO V1</h3>
+            <p class="font-size-up text-black">HTML | CSS</p>
+            <p class="text-white p-2">
+              My first attempt at building and designing a portfolio after
+              completing the freeCodeCamp Responsive Web Design Certification,
+              showcasing other projects (product landing page, technical
+              documentation page, survey form, and tribute page) I created as
+              part of the course.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/ggylee/full/xxRXPMJ"
+                class="text-decoration-none"
+                target="_blank"
+                ><button class="p-2 btn btn-project-code">
+                  <i class="fab fa-codepen"></i> VIEW
+                </button>
+              </a>
+              <a
+                href="https://github.com/ggylee/portfolio/tree/main/freeCodeCamp-projects/1-portfolio-v1"
+                target="_blank"
+                ><button class="p-2 ml-3 btn btn-project-code">
+                  <i class="fab fa-github"></i> SOURCE CODE
+                </button>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
@@ -403,7 +458,7 @@
     <div id="contact" class="py-5"></div>
 
     <section class="container-fluid text-center font-size-up">
-      <h2 class="font-weight-bold mb-3">Let's collaborate!</h2>
+      <h2 class="mb-3">Let's collaborate!</h2>
       <p class="mb-4">What shall we create together?</p>
       <div>
         <ul class="row list-unstyled align-items-center justify-content-center">
@@ -442,7 +497,7 @@
 
     <div class="py-5"></div>
 
-    <footer class="container-fluid bg-black text-center pt-3 pb-1">
+    <footer class="container-fluid bg-black text-center pt-4 pb-2">
       <p>&copy 2021 ggylee</p>
     </footer>
 

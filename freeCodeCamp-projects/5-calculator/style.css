@@ -1,0 +1,73 @@
+:root {
+  background-color: darkcyan;
+}
+
+#root {
+  height: 100vh;
+  background-image: linear-gradient(to bottom left, lavender, darkcyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Saira", sans-serif;
+}
+
+#container {
+  width: 358px;
+  background-color: #33004d;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: inset;
+  border-width: medium;
+}
+
+#display {
+  background-color: white;
+  border-style: inset;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  overflow-wrap: break-word;
+}
+
+.button {
+  width: 68px;
+  height: 68px;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: ghostwhite;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+.largerButton {
+  width: 144px;
+  border-radius: 40px;
+  color: purple;
+  background-color: lightgrey;
+}
+
+.longerButton {
+  position: absolute;
+  height: 144px;
+  border-radius: 40px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.operator {
+  background-color: lightgrey;
+  color: teal;
+}
+
+#zero {
+  background-color: ghostwhite;
+  color: black;
+}
+
+#decimal {
+  color: teal;
+}

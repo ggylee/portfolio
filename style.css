@@ -20,13 +20,14 @@ html {
 
 .brand-firstname {
   position: absolute;
-  left: 100px;
+  top: 12px;
+  left: 85px;
 }
 
 .brand-surname {
   position: absolute;
-  top: 32px;
-  left: 73px;
+  top: 30px;
+  left: 76px;
 }
 
 .navbar-hover:hover {
@@ -34,12 +35,13 @@ html {
 }
 
 .brand-font {
-  font-family: "Sacramento", cursive;
+  font-family: 'Dr Sugiyama', cursive;
   font-size: 3rem;
 }
 
-.title-font {
-  font-family: "Josefin Slab", serif;
+.intro-font {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 6.4rem;
 }
 
 .font-size-up {
@@ -152,9 +154,10 @@ html {
   top: -5px;
 }
 
-.icon-cv {
+.icon-cv, .btn-project-code {
   background: black;
   color: white;
+  font-weight: bold;
   position: relative;
   top: 0;
   transition: top ease 0.2s;
@@ -165,10 +168,18 @@ html {
   top: -5px;
 }
 
+.btn-project-code:hover {
+  background: white;
+  color: black;
+  top: -5px;
+}
+
 .tile-container {
   position: relative;
   width: 25rem;
+  height: auto;
   margin: 1rem;
+  background-color: black;
 }
 
 .tile-border {
@@ -205,32 +216,35 @@ html {
 
 @media screen and (max-width: 62em) {
   .brand-firstname {
-    left: 67px;
+    left: 53px;
   }
 
   .brand-surname {
-    left: 40px;
+    left: 44px;
   }
-}
 
-@media screen and (max-width: 56em) {
+  .intro-font {
+    font-size: 5rem;
+    padding-top: 2.65rem;
+    text-align: center;
+  }
+
+  h2, h3 {
+    font-size: 1.7rem;
+  }
+
   .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-  .display-2 {
-    font-size: 4.5rem;
-    padding-top: 2rem;
-  }
-
-  h2 {
-    font-size: 1.85rem;
-  }
 }
 
-@media screen and (max-width: 47em) {
+@media screen and (max-width: 56em) {
+
+}
+
+@media screen and (max-width: 48em) {
   .bg-1 {
     height: 100%;
   }
