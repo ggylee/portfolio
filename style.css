@@ -35,12 +35,12 @@ html {
 }
 
 .brand-font {
-  font-family: 'Dr Sugiyama', cursive;
+  font-family: "Dr Sugiyama", cursive;
   font-size: 3rem;
 }
 
 .intro-font {
-  font-family: 'Dr Sugiyama', cursive;
+  font-family: "Dr Sugiyama", cursive;
   font-size: 6.4rem;
 }
 
@@ -154,7 +154,8 @@ html {
   top: -5px;
 }
 
-.icon-cv, .btn-project-code {
+.icon-cv,
+.btn-project-code {
   background: black;
   color: white;
   font-weight: bold;
@@ -229,7 +230,8 @@ html {
     text-align: center;
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     font-size: 1.7rem;
   }
 
@@ -238,10 +240,6 @@ html {
     flex-direction: column;
     align-items: center;
   }
-}
-
-@media screen and (max-width: 56em) {
-
 }
 
 @media screen and (max-width: 48em) {
